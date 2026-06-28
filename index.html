@@ -503,19 +503,6 @@
     .edu-item { display: flex; gap: 8px; font-size: 0.86rem; color: var(--text-dim); align-items: flex-start; }
     .edu-item i { color: var(--cyan); margin-top: 2px; flex-shrink: 0; }
 
-    /* ── CERTIFICATIONS ─────────────────────────────── */
-    .certs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px,1fr)); gap: 14px; }
-    .cert-card {
-      background: var(--surface); border: 1px solid var(--line);
-      border-radius: var(--radius-md); padding: 18px;
-      display: flex; align-items: center; gap: 14px;
-      transition: all 0.25s var(--ease);
-    }
-    .cert-card:hover { border-color: var(--line-strong); transform: translateY(-3px); box-shadow: var(--shadow), 0 0 24px rgba(0,212,255,0.07); }
-    .cert-icon { font-size: 1.7rem; color: var(--cyan); flex-shrink: 0; }
-    .cert-card h4 { font-family: "Space Grotesk", sans-serif; font-size: 0.88rem; font-weight: 700; margin-bottom: 2px; }
-    .cert-card p { font-size: 0.76rem; color: var(--text-dim); }
-
     /* ── CTA ────────────────────────────────────────── */
     .cta {
       background: var(--surface); border: 1px solid var(--line);
@@ -999,37 +986,6 @@
             <div class="edu-item"><i class="bi bi-check2-circle"></i><span>Applied academic knowledge to real-world Java, database, and distributed architecture work.</span></div>
           </div>
         </article>
-      </section>
-
-      <!-- CERTIFICATIONS -->
-      <section id="certifications">
-        <div class="section-hd fade-up">
-          <div class="section-label">Achievements</div>
-          <h2 class="section-title">Certifications</h2>
-        </div>
-        <div class="certs-grid stagger">
-          <div class="cert-card">
-            <i class="bi bi-award-fill cert-icon"></i>
-            <div>
-              <h4>AWS Certified Developer</h4>
-              <p>Amazon Web Services · 2024</p>
-            </div>
-          </div>
-          <div class="cert-card">
-            <i class="bi bi-patch-check-fill cert-icon"></i>
-            <div>
-              <h4>Oracle SQL Expert</h4>
-              <p>Oracle University · 2023</p>
-            </div>
-          </div>
-          <div class="cert-card">
-            <i class="bi bi-trophy-fill cert-icon"></i>
-            <div>
-              <h4>Top 5 Hackathon UIT</h4>
-              <p>Backend System Track · 2021</p>
-            </div>
-          </div>
-        </div>
       </section>
 
       <!-- CONTACT -->
